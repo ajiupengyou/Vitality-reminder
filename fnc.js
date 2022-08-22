@@ -1,15 +1,15 @@
 const moment = require("moment");
 
 const base = {
-  birthday: "1998-10-11", // 女友出生日期
-  love: "2017-11-07", // 在一起的日期
+  birthday: "1995-11-15", // 女友出生日期
+  love: "2021-07-14", // 在一起的日期
   today: moment().format("YYYY-MM-DD"),
-  pay: "05", // 发薪日 -- 每月五号
+  //pay: "05", // 发薪日 -- 每月五号
   year: new Date().getFullYear(),
   month: new Date().getMonth() + 1,
   day: new Date().getDate(),
-  individual: 0, // 过的多少个生日
-  anniversary: 0, //在一起几年
+  individual: 2, // 过的多少个生日
+  anniversary: 2, //在一起几年
   flag: 0,
 };
 
