@@ -30,7 +30,7 @@ function getDay() {
 }
 
 // 上交工资
-function getPayDay() {
+//function getPayDay() {
   let str = "";
   if (base.day > Number(base.pay)) {
     if (base.month == 12) {
